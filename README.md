@@ -6,6 +6,7 @@ Technologies:
 - Java 8
 - Hibernate
 - MySQL
+- Log4J
 
 Prerequisites:
 - Maven 3

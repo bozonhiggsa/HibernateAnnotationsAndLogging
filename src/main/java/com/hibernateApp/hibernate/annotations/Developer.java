@@ -24,15 +24,9 @@ public class Developer {
     @Column (name = "EXPERIENCE")
     private int experience;
 
-    /**
-     * Default Constructor
-     */
     public Developer() {
     }
 
-    /**
-     * Plain constructor
-     */
     public Developer(String firstName, String lastName, String specialty, int experience) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -40,9 +34,6 @@ public class Developer {
         this.experience = experience;
     }
 
-    /**
-     * Getters and Setters
-     */
     public int getId() {
         return id;
     }
@@ -83,9 +74,6 @@ public class Developer {
         this.experience = experience;
     }
 
-    /**
-     * toString method (optional)
-     */
     @Override
     public String toString() {
         return "Developer:\n" +
